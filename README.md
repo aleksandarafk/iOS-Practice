@@ -27,5 +27,6 @@ All apps created by me, in preparation for my iOS Project in Semester 4 ICT &amp
 ### Used technologies
 The applications are fully coded in SwiftUI. The applications are available for devices with iOS version 16.1 and up. There are dependencies, however, they should automatically install when you open the files.
 # Installation
-NOTE: You should own an Apple device (MacBook, Mac mini, iMac) in order to access the files using xcode
+NOTE: You should own an Apple device (MacBook, Mac mini, iMac) in order to access the files using Xcode.
+
 Clone the repository on your machine and simply open the .xcodeproj files. Everything should work from there.
