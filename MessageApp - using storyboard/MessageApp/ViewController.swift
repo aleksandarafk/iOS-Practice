@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         if (MFMessageComposeViewController.canSendText()) {
             let controller = MFMessageComposeViewController()
             controller.body = "This message was sent with MessageUI"
-            controller.recipients = ["+359877234418"]
+            controller.recipients = ["insert a number"]
             //an interface that responds to the user interaction with the message composer
             controller.messageComposeDelegate = self as? MFMessageComposeViewControllerDelegate
             self.present(controller, animated: true, completion: nil)
