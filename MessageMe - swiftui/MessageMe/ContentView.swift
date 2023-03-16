@@ -27,7 +27,7 @@ struct ContentView: View {
         .sheet(isPresented: $isPresentingSMSComposer) {
             //if statement containing the recepients and the message
             if MFMessageComposeViewController.canSendText() {
-                SMSComposer(recipients: ["+359878296019"], message: "If you recieve this message, it means that it was sended with SwiftUI and MessageUI")
+                SMSComposer(recipients: ["insert a number"], message: "If you recieve this message, it means that it was sended with SwiftUI and MessageUI")
                 //sending a message in a simulator is impossible, so I am adding an else statement
             } else {
                 Text("Cannot send the message(debugging in simulator only, if you recieve this message, check your cellular connection.)")
